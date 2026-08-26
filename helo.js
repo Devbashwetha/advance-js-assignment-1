@@ -12,7 +12,7 @@
 // greet();
 // console.log('Done');
 
-//answer
+//output
 // hi
 // bye 
 // Done 
@@ -23,7 +23,7 @@
 // setTimeout(() => console.log('Two'), 1000);
 // setTimeout(() => console.log('Three'), 2000);
 
-// // output 
+// output 
 // Two
 // Three
 // One
@@ -74,12 +74,16 @@
 // What will be printed and in what order? 
 
 
-function logLater(id) {
-  setTimeout(() => {
-    console.log('ID is', id);
-  }, 1000);
-}
+// function logLater(id) {
+//   setTimeout(() => {
+//     console.log('ID is', id);
+//   }, 1000);
+// }
 
-logLater(1);
-logLater(2);
-logLater(3);
+// logLater(1);
+// logLater(2);
+// logLater(3);
+
+// Id is 1 
+// Id is 2
+// Id is 3
